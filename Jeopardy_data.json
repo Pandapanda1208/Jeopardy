@@ -1,7 +1,7 @@
 {
     "category_one": [
         {
-            "name": "Category One",
+            "name": "Old Testament",
             "questions": [
                 {
                     "points": "100",
@@ -43,7 +43,7 @@
     ],
     "category_two": [
         {
-            "name": "Category Two",
+            "name": "New Testament",
             "questions": [
                 {
                     "points": "100",
@@ -85,7 +85,7 @@
     ],
     "category_three": [
         {
-            "name": "Category Three",
+            "name": "Book of Mormon",
             "questions": [
                 {
                     "points": "100",
@@ -127,7 +127,7 @@
     ],
     "category_four": [
         {
-            "name": "Category Four",
+            "name": "Doctrine & Covenants",
             "questions": [
                 {
                     "points": "100",
@@ -169,7 +169,7 @@
     ],
     "category_five": [
         {
-            "name": "Category Five",
+            "name": "Pearl of Great Price",
             "questions": [
                 {
                     "points": "100",

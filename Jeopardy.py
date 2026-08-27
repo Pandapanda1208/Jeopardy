@@ -369,11 +369,6 @@ while run:
         pygame.draw.rect(screen, (0, 0, 0), row_five)
 
 
-        text = font.render(data["final"][0]["ready"], True, (255, 255, 0))
-        cat_one_sub_t = text.get_rect(center=non_board_bg.center)
-        screen.blit(text, cat_one_sub_t)
-
-
     if phase == "question":
         pygame.draw.rect(screen, (0, 0, 255), non_board_bg)
         if q == "1-1":
