@@ -76,7 +76,7 @@
                 {
                     "points": "500",
                     "question": "2-500",
-                    "answer": "2-5",
+                    "answer": "2-500",
                     "color": "yellow",
                     "double": false
                 }
@@ -212,9 +212,14 @@
     "final": [
         {
             "_comment": "The 'name' field is used to identify the final jeopardy category.",
-            "name": "Final Jeopardy",
-            "question": "Final Jeopardy Question",
-            "answer": "Final Jeopardy Answer",
+            "name": "Final Category",
+            "question":{
+                "1": "final-Q",
+                "2": "",
+                "3": ""
+            
+            },
+            "answer": "final-A",
             "ready": "qwertyuiopsdfghjklzxcvbnm"
         }
     ]

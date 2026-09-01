@@ -76,6 +76,7 @@ cat_five_five = pygame.Rect(1093, 642, 273, 127)
 phase = "board"
 stage = "category"
 
+
 run = True
 while run:
     screen.fill((255, 0, 0))
@@ -91,8 +92,14 @@ while run:
             screen.blit(text, non_board_bg_t)
         elif stage == "question":
             pygame.draw.rect(screen, (0, 0, 255), non_board_bg)
-            text = font.render(data["final"][0]["question"], True, (255, 255, 0))
+            text = font.render(data["final"][0]["question"]['3'], True, (255, 255, 0))
+            non_board_bg_t = text.get_rect(center=pygame.Vector2(non_board_bg.center) + (0, 30))
+            screen.blit(text, non_board_bg_t)
+            text = font.render(data["final"][0]["question"]['2'], True, (255, 255, 0))
             non_board_bg_t = text.get_rect(center=non_board_bg.center)
+            screen.blit(text, non_board_bg_t)
+            text = font.render(data["final"][0]["question"]['1'], True, (255, 255, 0))
+            non_board_bg_t = text.get_rect(center=pygame.Vector2(non_board_bg.center) - (0, 30))
             screen.blit(text, non_board_bg_t)
         elif stage == "answer":
             pygame.draw.rect(screen, (0, 0, 255), non_board_bg)
