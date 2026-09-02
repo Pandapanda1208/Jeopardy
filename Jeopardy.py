@@ -124,10 +124,13 @@ while run:
     screen.fill((255, 0, 0))
 
     if data["final"][0]["ready"] == "aaaaaaaaaaaaaaaaaaaaaaaaa":
-        if data['second_board_start'] == False:
-            data['second_board_start'] = True
-            phase = "board_two"
-            data['final'][0]['ready'] = "qwertyuiopsdfghjklzxcvbnm"
+        if data['second_board'] == True:
+            if data['second_board_start'] == False:
+                data['second_board_start'] = True
+                phase = "board_two"
+                data['final'][0]['ready'] = "qwertyuiopsdfghjklzxcvbnm"
+            else:
+                phase = 'final'
         else:
             phase = "final"
 

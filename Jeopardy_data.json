@@ -223,7 +223,7 @@
             "ready": "qwertyuiopsdfghjklzxcvbnm"
         }
     ],
-    "second_board": false,
+    "second_board": true,
     "second_board_start": false,
     "category_six": [
         {
