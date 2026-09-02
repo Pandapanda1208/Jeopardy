@@ -17,11 +17,16 @@ clear()
 #print(data["category_five"][0]["name"])                        #5 - category name
 
 pygame.init()
+pygame.mixer.init()
+
 
 flags = pygame.FULLSCREEN | pygame.SCALED | pygame.DOUBLEBUF
 logical_size = (1366, 768)
 
 screen = pygame.display.set_mode(logical_size, flags)
+
+pygame.mixer.music.load('Jeopardy Theme.wav')
+pygame.mixer.music.play(-1)
 
 font = pygame.font.SysFont(None, 36)
 
