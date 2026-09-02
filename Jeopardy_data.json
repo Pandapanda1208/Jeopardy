@@ -76,7 +76,7 @@
                 {
                     "points": "500",
                     "question": "2-500",
-                    "answer": "2-500",
+                    "answer": "2-5",
                     "color": "yellow",
                     "double": false
                 }
@@ -221,6 +221,218 @@
             },
             "answer": "final-A",
             "ready": "qwertyuiopsdfghjklzxcvbnm"
+        }
+    ],
+    "second_board": false,
+    "second_board_start": false,
+    "category_six": [
+        {
+            "name": "Category Six",
+            "questions": [
+                {
+                    "points": "100",
+                    "question": "6-100",
+                    "answer": "6-1",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "200",
+                    "question": "6-200",
+                    "answer": "6-2",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "300",
+                    "question": "6-300",
+                    "answer": "6-3",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "400",
+                    "question": "6-400",
+                    "answer": "6-4",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "500",
+                    "question": "6-500",
+                    "answer": "6-5",
+                    "color": "yellow",
+                    "double": false
+                }
+            ]
+        }
+    ],
+    "category_seven": [
+        {
+            "name": "Category Seven",
+            "questions": [
+                {
+                    "points": "100",
+                    "question": "7-100",
+                    "answer": "7-1",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "200",
+                    "question": "7-200",
+                    "answer": "7-2",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "300",
+                    "question": "7-300",
+                    "answer": "7-3",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "400",
+                    "question": "7-400",
+                    "answer": "7-4",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "500",
+                    "question": "7-500",
+                    "answer": "7-5",
+                    "color": "yellow",
+                    "double": false
+                }
+            ]
+        }
+    ],
+    "category_eight": [
+        {
+            "name": "Category Eight",
+            "questions": [
+                {
+                    "points": "100",
+                    "question": "8-100",
+                    "answer": "8-1",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "200",
+                    "question": "8-200",
+                    "answer": "8-2",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "300",
+                    "question": "8-300",
+                    "answer": "8-3",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "400",
+                    "question": "8-400",
+                    "answer": "8-4",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "500",
+                    "question": "8-500",
+                    "answer": "8-5",
+                    "color": "yellow",
+                    "double": false
+                }
+            ]
+        }
+    ],
+    "category_nine": [
+        {
+            "name": "Category Nine",
+            "questions": [
+                {
+                    "points": "100",
+                    "question": "9-100",
+                    "answer": "9-1",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "200",
+                    "question": "9-200",
+                    "answer": "9-2",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "300",
+                    "question": "9-300",
+                    "answer": "9-3",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "400",
+                    "question": "9-400",
+                    "answer": "9-4",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "500",
+                    "question": "9-500",
+                    "answer": "9-5",
+                    "color": "yellow",
+                    "double": false
+                }
+            ]
+        }
+    ],
+    "category_ten": [
+        {
+            "name": "Category Ten",
+            "questions": [
+                {
+                    "points": "100",
+                    "question": "10-100",
+                    "answer": "10-1",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "200",
+                    "question": "10-200",
+                    "answer": "10-2",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "300",
+                    "question": "10-300",
+                    "answer": "10-3",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "400",
+                    "question": "10-400",
+                    "answer": "10-4",
+                    "color": "yellow",
+                    "double": false
+                },
+                {
+                    "points": "500",
+                    "question": "10-500",
+                    "answer": "10-5",
+                    "color": "yellow",
+                    "double": false
+                }
+            ]
         }
     ]
 }
